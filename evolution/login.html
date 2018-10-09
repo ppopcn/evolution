@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8;"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <title>DirectAdmin Login</title>
+        
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+        <meta name="robots" content="noindex,nofollow" />
+        <script>
+            var tokens = {
+                LOST_PASSWORD: "|LOST_PASSWORD|" === "yes",
+                TIME: {
+                    current: |TIME_SECONDS| * 1000,
+                    offset: |ALLOWED_OFFSET| * 1000,
+                },
+                AUTH_METHOD: "|AUTH_METHOD|",
+                QUESTION: "|QUESTION_JSON|",
+            };
+        </script>
+    </head>
+    <body>
+        <!-- Vue root -->
+        <div id="login"></div>
+        <div id="foot" style="display:none;">
+            <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default-3.4"></script>            
+            <script type="text/javascript" src="/assets/vendors.js?ver=|SKIN_VERSION|"></script>
+            <script type="text/javascript" src="/assets/login.js?ver=|SKIN_VERSION|"></script>
+        </div>
+    </body>
+</html>
