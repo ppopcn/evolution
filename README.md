@@ -17,7 +17,7 @@ chown -R diradmin:diradmin evolution
 rm -f master.zip
 ```
 =======
-#lang only
+# lang only
 ```
 cd /usr/local/directadmin/data/skins/evolution/lang
 ##zh_cn
