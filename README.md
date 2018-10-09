@@ -17,7 +17,7 @@ chown -R diradmin:diradmin evolution
 rm -f master.zip
 ```
 =======
-# evolution 简体中文和繁体中文语言文件
+# Evolution 简体中文和繁体中文语言文件
 ```
 cd /usr/local/directadmin/data/skins/evolution/lang
 ##zh_cn
