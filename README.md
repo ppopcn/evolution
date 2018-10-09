@@ -24,6 +24,5 @@ cd /usr/local/directadmin/data/skins/evolution/lang
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/cn.po
 ##zh_tw
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh_tw.po
-cd /usr/local/directadmin/data/skins
-chown -R diradmin:diradmin evolution
+chown -R diradmin:diradmin ./*
 ```
