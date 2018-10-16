@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh_tw.po
 chown -R diradmin:diradmin ./*
 ```
 
-# login page
+# 高端大气上档次的login page
 ```
 cd /usr/local/directadmin/data/templates/custom
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/neworld_login/login.html
