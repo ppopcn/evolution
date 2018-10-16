@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>Login-DirectAdmin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" class="ui" href="//cdn.jsdelivr.net/semantic-ui/2.0.7/semantic.min.css">
+  
+    <link href="images/style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="pusher">
+		<div class="container">
+		<div class="ui two column centered grid login-form">
+			<div class="column">
+				
+				<div class="ui two column centered grid">
+					<div class="column">
+						<h1><i class="world icon" style="color:#6ED9A0;"></i> DirectAdmin</h1>
+					</div>
+					<div class="column">
+						
+						<form method="post" action="/CMD_LOGIN" name="loginForm" id="loginForm">
+						<input type="hidden" value="/" name="referer"/>
+						<input type="hidden" value="/" name="LOGOUT_URL"/>
+							<div class="ui large form">
+						
+								<div class="field">
+									<label for="username">Username:</label>
+									<input type="text" id="username" name="username" placeholder="Username">
+								</div>
+					
+								<div class="field">
+									<label for="password">Password: </label>
+									<input type="password" id="password" name="password" placeholder="Password">
+								</div>
+								
+								<div class="field">
+									<button type="submit" class="large fluid ui button">Login</button>
+								</div>
+						
+								
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+
+		</div>
+	</div>
+</body>
+</html>
