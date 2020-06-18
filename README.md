@@ -17,17 +17,17 @@ chown -R diradmin:diradmin evolution
 rm -f master.zip
 ```
 =======
-# Evolution ¼òÌåÖĞÎÄºÍ·±ÌåÖĞÎÄÓïÑÔÎÄ¼ş
+# Evolution ç®€ä½“ä¸­æ–‡å’Œç¹ä½“ä¸­æ–‡è¯­è¨€æ–‡ä»¶
 ```
 cd /usr/local/directadmin/data/skins/evolution/lang
-##zh_cn(¼òÖĞ)
-wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/cn.po
-##zh_tw(·±ÖĞ)
+##zh_cn(ç®€ä¸­)
+wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh-cn.po
+##zh_tw(ç¹ä¸­)
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh_tw.po
 chown -R diradmin:diradmin ./*
 ```
 
-# ¸ß¶Ë´óÆøÉÏµµ´ÎµÄlogin page
+# é«˜ç«¯å¤§æ°”ä¸Šæ¡£æ¬¡çš„login page
 ```
 cd /usr/local/directadmin/data/templates/custom
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/neworld_login/login.html
