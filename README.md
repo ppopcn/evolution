@@ -21,11 +21,12 @@ rm -f master.zip
 ```
 cd /usr/local/directadmin/data/skins/evolution/lang
 ##zh_cn(简中)
-wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh-cn.po --no-check-certificate
+wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/cn.po --no-check-certificate
 wget https://raw.githubusercontent.com/ppopcn/EvolutionSkin-SimplifiedChinese/master/zh_Hans.po --no-check-certificate
 
 ##zh_tw(繁中)
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/lang/zh_tw.po --no-check-certificate
+wget https://raw.githubusercontent.com/ppopcn/Evolution-Lang-zh_TW/master/zh_Hant_HK.po --no-check-certificate
 chown -R diradmin:diradmin ./*
 ```
 
