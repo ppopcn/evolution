@@ -1,6 +1,6 @@
 # evolution
 ```
-build 5/3/2018
+build 5/3/2018 [2020后新装da版本已经自带,无需另行安装]
 ```
 =======
 ```
@@ -30,7 +30,7 @@ wget -O zh_Hant.po https://raw.githubusercontent.com/ppopcn/Evolution-Lang-zh_TW
 chown -R diradmin:diradmin ./*
 ```
 
-# 高端大气上档次的login page
+# 高端大气上档次的login page [2020后版本已经自带,无需自行安装]
 ```
 cd /usr/local/directadmin/data/templates/custom
 wget https://raw.githubusercontent.com/ppopcn/evolution/master/neworld_login/login.html --no-check-certificate
